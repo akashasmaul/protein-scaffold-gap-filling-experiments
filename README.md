@@ -1,8 +1,8 @@
 # Protein Scaffold Gap Filling
 
-A bioinformatics project exploring computational filling of missing amino-acid regions in protein scaffold sequences. The project investigates both known-gap-size and known-gap-mass settings using traditional machine learning, a BiLSTM sequence model, and mass-constrained candidate retrieval.
+This repository contains an experimental attempt at protein scaffold gap filling using machine learning, BiLSTM models, and mass-constrained candidate selection. The project did not achieve complete scaffold reconstruction, but documents the approaches, experiments, results, and limitations.
 
-![Workflow](figures/workflow-diagram.png)
+A bioinformatics project exploring computational filling of missing amino-acid regions in protein scaffold sequences. The project investigates both known-gap-size and known-gap-mass settings using traditional machine learning, a BiLSTM sequence model, and mass-constrained candidate retrieval.
 
 ## Overview
 
@@ -37,6 +37,9 @@ The final notebook creates a training set of **3,826,728 samples** for the gap-f
 The source datasets are not included in this repository. The notebooks contain the paths and loading logic used in the original environment, so those paths may need to be updated before running the notebooks elsewhere.
 
 ## Methodology
+
+![Workflow](figures/workflow-diagram.png)
+Workflow diagram of the proposed Architecture
 
 ### 1. Scaffold gap extraction
 
