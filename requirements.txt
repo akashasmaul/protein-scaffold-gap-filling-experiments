@@ -1,0 +1,13 @@
+numpy
+pandas
+scikit-learn
+torch
+biopython
+matplotlib
+tqdm
+
+# Used by additional experimental notebooks:
+tensorflow
+xgboost
+lightgbm
+catboost
